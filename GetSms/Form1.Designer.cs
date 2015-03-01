@@ -43,7 +43,7 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 30000;
+            this.timer1.Interval = 300000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // tabControl1
