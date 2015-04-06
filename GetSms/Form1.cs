@@ -126,7 +126,7 @@ namespace GetSms
                             Doc.GetElementById("ctl00_ContentPlaceHolder1_GridView1_ctl01_checkBoxAll").InvokeMember("Click");
 
                             //Change Ddl to move to Delete:
-                            Doc.GetElementById("ctl00_ContentPlaceHolder1_ddlOperation").Children[4].SetAttribute("selected", "selected");
+                            Doc.GetElementById("ctl00_ContentPlaceHolder1_ddlOperation").Children[5].SetAttribute("selected", "selected");
 
 
                             //Click Do Action Btn:
